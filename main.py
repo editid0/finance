@@ -58,3 +58,13 @@ for ticker, info in stock_amounts.items():
     print(
         f"Ticker: {ticker}, Shares: {info['shares']}, Total Cost: {info['total_cost']}"
     )
+
+
+# params = {"ticker": "AAPL", "limit": 1}
+
+# response = requests.get(
+#     "https://api.polygon.io/v3/reference/dividends", headers=headers, params=params
+# )
+
+# data = response.json()
+# print(data)
